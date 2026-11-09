@@ -15,9 +15,9 @@ jobs:
 
       - run: pip install pyinstaller
 
-      - run: pyinstaller --onefile --windowed hehehe.py
+      - run: pyinstaller --onefile --windowed click_me!.py
 
       - uses: actions/upload-artifact@v4
         with:
           name: Windows-EXE
-          path: dist/hehehehe.exe
+          path: dist/click_me!.exe
